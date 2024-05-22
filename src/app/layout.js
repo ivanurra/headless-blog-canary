@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import { Lato, Open_Sans } from "next/font/google";
 
 const lato = Lato({
@@ -18,6 +19,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <Header />
       <body
         className={`${openSans.className} ${openSans.variable} ${lato.variable}`}
       >
