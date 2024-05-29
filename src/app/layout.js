@@ -19,10 +19,10 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <Header />
       <body
         className={`${openSans.className} ${openSans.variable} ${lato.variable}`}
       >
+        <Header />
         {children}
       </body>
     </html>
