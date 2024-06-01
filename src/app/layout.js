@@ -1,6 +1,8 @@
 import Header from "@/components/header";
 import { Lato, Open_Sans } from "next/font/google";
 
+import "./globals.css";
+
 const lato = Lato({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
