@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="px-6">
+    <div>
       <a
         href="#"
         className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
