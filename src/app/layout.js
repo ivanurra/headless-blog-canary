@@ -1,5 +1,6 @@
+import Footer from "@/components/footer/footer";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 
 export const metadata = {
   title: "Headless Blog",
@@ -12,6 +13,7 @@ const RootLayout = ({ children }) => {
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
