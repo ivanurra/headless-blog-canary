@@ -1,10 +1,10 @@
-const Navbar = () => {
+const Navbar = ({ title }) => {
   return (
     <nav>
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
-            Headless Blog
+            {title}
           </span>
         </a>
         <button

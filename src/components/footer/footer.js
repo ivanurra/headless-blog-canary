@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ title }) => {
   const date = new Date();
   const year = date.getFullYear();
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © {year}{" "}
           <a href="/" class="hover:underline">
-            Headless Blog
+            {title}
           </a>
           . All Rights Reserved.
         </span>

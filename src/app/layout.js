@@ -11,9 +11,9 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <Navbar title="Headless Blog" />
         {children}
-        <Footer />
+        <Footer title="Headless Blog" />
       </body>
     </html>
   );
